@@ -26,16 +26,16 @@ window.onload = function init() {
 	var key =String.fromCharCode(event.keyCode);
 	switch(key) {
 		case 'W':
-		dy+=.05;
+		dy+=.035;
 		break;
 		case 'S':
-		dy-=.05;
+		dy-=.035;
 		break;
 		case 'D':
-		dx+=.05;
+		dx+=.035;
 		break;
 		case 'A':
-		dx-=.05;
+		dx-=.035;
 		break;
 		case '1':
 		dy = 0.0;
