@@ -1,1 +1,6 @@
-name, date, description
+Donald Disha
+2/16/2015
+- My program is a multicolored polygon that moves left, right, up, and down according to inputs of keys w,a,s, and d. 
+  If the number 1 is pressed, that makes the polygon reset to its original position. I did this by putting my function for 
+  setting my vertices in the render function, making it refresh every time a key is pressed. I check which input is given
+  through a switch statement that looks for certain letters.
